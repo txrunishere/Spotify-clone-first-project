@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option">
+                        <img src="library_icon.png" alt="library">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+                <div class="language">
+                    <i class="fa-solid fa-globe"></i>
+                    <a href="#">English</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="stick-nav">
+                <div class="stick-nav-icons">
+                    <img src="backward_icon.png" alt="Backward arrow">
+                    <img src="forward_icon.png" class="hide change" alt="Forward arrow">
+                </div>
+                <div class="stick-nav-option">
+                    <button class="badge-sign-in">Sign up</button>
+                    <button class="badge-log-in">Log in </button>
+                </div>
+            </div>
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="Seedhe-Maut-Lunch-Front-Cover-Art-4K-2048x2048.webp" alt="">
+                    <p class="card-title">Lunch Break</p>
+                    <p class="card-info">By Seedhe Maut</p>
+                </div>
+                <div class="card">
+                    <img src="wu sang clan.jpg" alt="">
+                    <p class="card-title">Wu Sang Clan</p>
+                    <p class="card-info">By Arpit Bala</p>
+                </div>
+            </div>
+            <h2>Top Albums</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="ladke convict.jpg" alt="">
+                    <p class="card-title">Ladke Convict</p>
+                    <p class="card-info">By Yashraj</p>
+                </div>
+                <div class="card">
+                    <img src="ek tha raja.jpeg" alt="">
+                    <p class="card-title">EK tha Raja</p>
+                    <p class="card-info">By Badshah</p>
+                </div>
+                <div class="card">
+                    <img src="still here.jpeg" alt="">
+                    <p class="card-title">Still Here</p>
+                    <p class="card-info">By KR$NA</p>
+                </div>
+                <div class="card">
+                    <img src="4am in karachi.jpg" alt="">
+                    <p class="card-title">4am in Karachi</p>
+                    <p class="card-info">By Talha Anjum</p>
+                </div>
+            </div>
+            <h2>Featured Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="card1img.jpeg" alt="">
+                    <p class="card-title">Top 50 plobal</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+                <div class="card">
+                    <img src="card5img.jpeg" alt="">
+                    <p class="card-title">Top Songs Global</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+                <div class="card">
+                    <img src="card6img.jpeg" alt="">
+                    <p class="card-title">Top Songs India</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="wu sang clan.jpg" alt="">
+                <div class="anchor">
+                    <a href="#" class="curr-tit">WuShang Clan</a>
+                    <a href="#" class="curr-info">Arpit Bala</a>
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="playbar-icons">
+                    <img src="player_icon1.png" class="play-bar-icons">
+                    <img src="player_icon2.png" class="play-bar-icons">
+                    <img src="player_icon3.png" class="play-bar-icons large-dark">
+                    <img src="player_icon4.png" class="play-bar-icons">
+                    <img src="player_icon5.png" class="play-bar-icons">
+                </div>
+                <div class="playbar-control">
+                    <span class="curr-time">0:00</span>
+                    <input type="range" min="0" max="100" class="play-bar" step="1">
+                    <span class="tot-time">2:44</span>
+                </div>
+            </div>
+            <div class="controls"></div>
+        </div>
+    </div>
+</body>
+
+</html>
